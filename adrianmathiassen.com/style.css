@@ -1,0 +1,64 @@
+html, body {
+    height: 2500px;
+    margin:0;
+    padding:0;
+    background-image: url(Mountinas.jpg);
+    background-size: cover;         /* make it always cover full width/height */
+    background-position: center;    /* keep it centered */
+    background-repeat: no-repeat;   /* stop tiling/doubling */
+    max-width: 100%;
+}
+
+header {
+    margin: 40px;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    grid-template-rows: 50% 50%;
+}
+
+.firstname{
+    grid-column: 1/ 2;
+    background-color: aliceblue;
+    border-radius: 8px;
+}
+
+.etternavn {
+    display: block;
+    position: static;
+    font-size: larger;
+    background-color: black;
+    color: aliceblue;
+    border-radius: 4px;
+    border-top: 5px solid linear-gradient(cornflowerblue, aliceblue, aqua, aliceblue, cornflowerblue);
+}
+
+.navigation  {
+    width: 50vw;
+    grid-row: 2/2;
+    padding-top:30px;
+}
+
+
+
+.navigation a {
+    text-decoration: none;
+    color:black;
+    padding:18px;
+    margin:20px;
+    font-size: large;
+    border: 2px solid white;
+    border-radius: 8px;
+    background-color: black;
+    color: aliceblue;
+}
+
+.navigation .white{
+    background-color: aliceblue;
+    color: black;
+    border: 2px solid black
+}
+
+#form {
+    background-color: cornflowerblue ;
+    color: black;
+    border: 0px;
+}

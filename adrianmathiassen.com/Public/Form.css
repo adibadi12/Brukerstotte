@@ -1,0 +1,22 @@
+html, body {
+    height: 100mvh;
+    width: 100vw;
+}
+
+#Login {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+#Login, label{
+    justify-content: center;
+    align-items: center;
+}
+
+#Login, input {
+    justify-content: center;
+    align-items: center;
+}
+
